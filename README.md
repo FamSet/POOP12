@@ -71,7 +71,3 @@ Iteración 0 Hilor2
 
 ## Requisitos
 Este proyecto solo requiere la biblioteca estándar de Java y se ejecuta desde la línea de comandos o un entorno de desarrollo como NetBeans o IntelliJ IDEA.
-
----
-
-Esta documentación describe el propósito de cada clase, sus funcionalidades, métodos, y un ejemplo de ejecución para clarificar su funcionamiento.
