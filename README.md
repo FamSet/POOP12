@@ -33,38 +33,3 @@ Métodos:
 Hilo(String name): Constructor que inicializa el hilo con un nombre específico.
 public void run(): Sobrescribe el método run() de Thread para definir el comportamiento del hilo, imprimiendo 10 iteraciones y finalizando con un mensaje.
 Ejemplo de uso:
-
-java
-Copiar código
-Hilo h1 = new Hilo("Hilo1");
-h1.start();
-Hilor
-La clase Hilor implementa la interfaz Runnable y define la lógica del método run() para ser ejecutada por hilos creados con la clase Thread.
-
-Métodos:
-
-public void run(): Implementación del método run() de Runnable que imprime iteraciones junto con el nombre del hilo, finalizando con un mensaje.
-Ejemplo de uso:
-
-java
-Copiar código
-new Thread(new Hilor(), "Hilor1").start();
-Ejecución del Programa
-El programa se ejecuta desde la clase POOP12 y realiza las siguientes acciones:
-
-Inicia tres hilos usando la clase Hilor que implementa Runnable.
-Imprime en la consola las iteraciones del 0 al 9 junto con el nombre del hilo en ejecución.
-Muestra un mensaje indicando la finalización de cada hilo.
-Ejemplo de Salida:
-
-python
-Copiar código
-Iteración 0 Hilor1
-Iteración 1 Hilor1
-...
-Iteración 9 Hilor1
-Termina el Hilor1
-Iteración 0 Hilor2
-...
-Requisitos
-Este proyecto solo requiere la biblioteca estándar de Java y se ejecuta desde la línea de comandos o un entorno de desarrollo como NetBeans o IntelliJ IDEA.
